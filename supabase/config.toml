@@ -1,0 +1,5 @@
+# Minimal Supabase CLI config. Run `npx supabase init` if you need the full template.
+project_id = "golfapp"
+
+[functions.stripe-webhook]
+verify_jwt = false
